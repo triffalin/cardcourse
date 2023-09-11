@@ -20,6 +20,11 @@ html {
 	width: 350px;
 	margin: 50px auto;
 	box-shadow: 3px 3px 10px rgb(201, 200, 200);
+	transition: transform 0.5s ease-out;
+	-webkit-transition: transform 0.5s ease-out;
+	-moz-transition: transform 0.5s ease-out;
+	-ms-transition: transform 0.5s ease-out;
+	-o-transition: transform 0.5s ease-out;
 }
 
 .card-container:hover {
@@ -37,6 +42,14 @@ h1 {
 	margin: 10px 0;
 	font-family: 'Zilla Slab', serif;
 	font-weight: 600;
+}
+
+h1:hover {
+	transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
 }
 
 .card-info {
@@ -98,6 +111,11 @@ h1 {
 	border: 2px solid rgb(224, 224, 224);
 	font-size: var(--size-1);
 	font-weight: 600;
+	transition: background-color 2s ease-out 0.5s;
+	-webkit-transition: background-color 2s ease-out 0.5s;
+	-moz-transition: background-color 2s ease-out 0.5s;
+	-ms-transition: background-color 2s ease-out 0.5s;
+	-o-transition: background-color 2s ease-out 0.5s;
 }
 
 .button:hover {
